@@ -9,9 +9,9 @@ In order to install the NSS-TODO-List (extended) application:
 <li>Make sure you have a PHP 5.2.5 or higher installed on your system.</li>
 <li><strong>Note:</strong> You can download an installer like XAMPP for the above two requirements.</li>
 <li>Start the Apache server if it is not already running. Verify by going to localhost in your browser</li>
-<li>Checkout the project and put all its contents in the 'htdocs' (/www) folder of Apache.</li>
+<li>Checkout the project and put all its contents in the 'htdocs' (/www) folder of Apache.You may need to mount same via XAMPP</li>
 <li><strong>Note:</strong> You may want to explore your file read/write permissions on your local file system.</li>
-<li>Go to http://localhost/nss-todo-automation/index.php (or whatever name you have given to the folder containing all of the project files) and access the application.</li>
+<li>Go to http://localhost/dotdash-project/index.php (or whatever name you have given to the folder containing all of the project files) and access the application.</li>
 </ul>
 <h3>Test Cases:</h3>
 Write test cases to test various functionalities and features of this app. Imagine you are a QA Lead and how would you go about successfully testing this app. The more scenarios you cover the better coverage you can provide. First test the API call and then test the interface and functionality of this app. Please provide your test cases in plain English and paste them under /test_cases.txt file.

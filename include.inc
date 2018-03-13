@@ -43,7 +43,7 @@ function loadTODO () {
 	$data = @file ( $file );
 
 	foreach ( $data as $line ) {
-		list ( $tid, $status, $text, $cid, $duedate ) = split ( "\|" , trim ( $line ) );
+		list ( $tid, $status, $text, $cid, $duedate ) = explode ( "|" , trim ( $line ) );
 
 		$todo_list[$tid]["status"]=$status;
 		$todo_list[$tid]["text"]=$text;
@@ -80,7 +80,7 @@ function loadCategories () {
 	$data = @file ( $categories );
 
 	foreach ( $data as $line ) {
-		list ( $cid, $code, $category ) = split ( "\|" , trim ( $line ) );
+		list ( $cid, $code, $category ) = explode( "|" , trim ( $line ) );
 		$category_list[$cid]["code"]=$code;
 		$category_list[$cid]["title"]=$category;
 	}
